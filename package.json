@@ -1,6 +1,6 @@
 {
   "name": "react-clipboard-icon",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "is an svg icon from clipboard.js site assets, packaged as a React stateless component",
   "main": "index.js",
   "scripts": {
