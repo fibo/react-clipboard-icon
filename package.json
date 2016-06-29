@@ -2,10 +2,13 @@
   "name": "react-clipboard-icon",
   "version": "0.1.0",
   "description": "is an svg icon from clipboard.js site assets, packaged as a React stateless component",
-  "main": "ClipboardIcon.js",
+  "main": "index.js",
   "scripts": {
+    "babel": "babel ClipboardIcon.js -o index.js",
+    "postupdate-deps": "npm test && git commit -am 'updated deps' || git checkout -- package.json",
     "postversion": "git push origin v${npm_package_version}; npm publish; npm run push",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-deps": "npm update --save --dev"
   },
   "repository": {
     "type": "git",
@@ -25,5 +28,13 @@
   "bugs": {
     "url": "https://github.com/fibo/react-clipboard-icon/issues"
   },
-  "homepage": "http://npm.im/react-clipboard-icon"
+  "homepage": "http://npm.im/react-clipboard-icon",
+  "dependencies": {
+    "react": "^15.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-cli": "^6.10.1"
+  }
 }
