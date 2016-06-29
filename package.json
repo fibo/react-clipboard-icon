@@ -6,7 +6,7 @@
   "scripts": {
     "babel": "babel ClipboardIcon.js -o index.js",
     "postupdate-deps": "npm test && git commit -am 'updated deps' || git checkout -- package.json",
-    "postversion": "git push origin v${npm_package_version}; npm publish; npm run push",
+    "postversion": "git push origin v${npm_package_version}; npm publish",
     "test": "echo \"Error: no test specified\" && exit 1",
     "update-deps": "npm update --save --dev"
   },
