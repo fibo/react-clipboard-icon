@@ -33,10 +33,10 @@ var ClipboardIcon = function ClipboardIcon(_ref) {
 };
 
 ClipboardIcon.propTypes = {
-  onClick: _react.PropTypes.func.isRequired,
   size: _react.PropTypes.number.isRequired,
   style: _react.PropTypes.object.isRequired
 };
+
 ClipboardIcon.defaultProps = {
   size: 24,
   style: {}

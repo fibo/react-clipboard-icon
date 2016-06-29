@@ -22,10 +22,10 @@ const ClipboardIcon = ({
 )
 
 ClipboardIcon.propTypes = {
-  onClick: PropTypes.func.isRequired,
   size: PropTypes.number.isRequired,
   style: PropTypes.object.isRequired
 }
+
 ClipboardIcon.defaultProps = {
   size: 24,
   style: {}
