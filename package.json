@@ -1,0 +1,29 @@
+{
+  "name": "react-clipboard-icon",
+  "version": "0.1.0",
+  "description": "is an svg icon from clipboard.js site assets, packaged as a React stateless component",
+  "main": "ClipboardIcon.js",
+  "scripts": {
+    "postversion": "git push origin v${npm_package_version}; npm publish; npm run push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fibo/react-clipboard-icon.git"
+  },
+  "keywords": [
+    "react",
+    "svg",
+    "clipboard",
+    "icon"
+  ],
+  "author": {
+    "name": "Gianluca Casati",
+    "url": "http://g14n.info"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fibo/react-clipboard-icon/issues"
+  },
+  "homepage": "http://npm.im/react-clipboard-icon"
+}
