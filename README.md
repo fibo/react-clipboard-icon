@@ -4,6 +4,8 @@
 
 All credits goes to [@zenorocha][zenorocha].
 
+This is clippy.svg <img width="40" height="40" alt="clippy" src="https://clipboardjs.com/assets/images/clippy.svg" />
+
 ## Usage
 
 Import *react-clipboard-icon* in your React component.
@@ -25,10 +27,5 @@ const MyComponent = () => (
 export default MyComponent
 ```
 
-## Clippy
-
-![clippy icon][clippy_svg]
-
-[clippy_svg]: https://clipboardjs.com/assets/images/clippy.svg "clippy"
 [clipboard.js]: https://clipboardjs.com/ "clipboard.js"
 [zenorocha]: https://github.com/zenorocha "Zeno Rocha"
