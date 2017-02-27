@@ -14,9 +14,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // https://clipboardjs.com/assets/images/clippy.svg
 
 var ClipboardIcon = function ClipboardIcon(_ref) {
-  var size = _ref.size;
-  var style = _ref.style;
-  var onClick = _ref.onClick;
+  var size = _ref.size,
+      style = _ref.style,
+      onClick = _ref.onClick;
   return _react2.default.createElement(
     'svg',
     {
