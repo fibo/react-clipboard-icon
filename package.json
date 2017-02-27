@@ -1,6 +1,6 @@
 {
   "name": "react-clipboard-icon",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "is an svg icon from clipboard.js site assets, packaged as a React stateless component",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,9 @@
     "postversion": "git push origin v${npm_package_version}; npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "pre-commit": [ "lint" ],
+  "pre-commit": [
+    "lint"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fibo/react-clipboard-icon.git"
