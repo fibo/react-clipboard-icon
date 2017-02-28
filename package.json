@@ -6,7 +6,7 @@
   "scripts": {
     "build": "babel ClipboardIcon.js -o index.js",
     "lint": "standard ClipboardIcon.js",
-    "postversion": "git push origin v${npm_package_version}; npm publish",
+    "postversion": "git push origin v${npm_package_version}; npm publish; git push origin master",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "pre-commit": [
