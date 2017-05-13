@@ -13,10 +13,10 @@ All credits go to [@zenorocha][zenorocha].
 
 ## Installation
 
-[React] is required as a peer dependency. With [npm] do
+[React] is required as peer dependencies. With [npm] do
 
 ```bash
-npm install react
+npm install react prop-types
 npm install react-clipboard-icon
 ```
 
@@ -67,5 +67,6 @@ npm version major|minor|patch
 
 [clipboard.js]: https://clipboardjs.com/ "clipboard.js"
 [npm]: https://npmjs.org "npm"
+[prop-types]: https://github.com/facebook/prop-types "prop-types"
 [React]: https://facebook.github.io/react/ "React"
 [zenorocha]: https://github.com/zenorocha "Zeno Rocha"

@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react'
+import React from 'react'
+import PropTypes from 'prop-types'
 
 // Icon from clipboard.js site
 // https://clipboardjs.com/assets/images/clippy.svg
@@ -22,11 +23,13 @@ const ClipboardIcon = ({
 )
 
 ClipboardIcon.propTypes = {
+  onClick: PropTypes.func,
   size: PropTypes.number.isRequired,
   style: PropTypes.object.isRequired
 }
 
 ClipboardIcon.defaultProps = {
+  onClick: Function.prototype,
   size: 24,
   style: {}
 }

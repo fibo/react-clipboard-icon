@@ -8,6 +8,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _propTypes = require('prop-types');
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // Icon from clipboard.js site
@@ -33,11 +37,13 @@ var ClipboardIcon = function ClipboardIcon(_ref) {
 };
 
 ClipboardIcon.propTypes = {
-  size: _react.PropTypes.number.isRequired,
-  style: _react.PropTypes.object.isRequired
+  onClick: _propTypes2.default.func,
+  size: _propTypes2.default.number.isRequired,
+  style: _propTypes2.default.object.isRequired
 };
 
 ClipboardIcon.defaultProps = {
+  onClick: Function.prototype,
   size: 24,
   style: {}
 };
