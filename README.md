@@ -13,7 +13,7 @@ All credits go to [@zenorocha][zenorocha].
 
 ## Installation
 
-[React] is required as peer dependencies. With [npm] do
+[React] and [prop-types] are required as peer dependencies. With [npm] do
 
 ```bash
 npm install react prop-types
