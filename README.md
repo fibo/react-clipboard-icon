@@ -22,6 +22,8 @@ npm install react-clipboard-icon
 
 ## Usage
 
+[![Edit](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/70L6pkmj)
+
 Import *react-clipboard-icon* in your React component.
 All props are optional:
 
