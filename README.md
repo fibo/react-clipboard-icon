@@ -7,23 +7,27 @@
 [Development](#development) |
 [License](#license)
 
-All credits go to [@zenorocha][zenorocha].
+All credits go to [@zenorocha].
 
 <img width="80" height="80" alt="clippy" src="https://clipboardjs.com/assets/images/clippy.svg" />
 
 ## Installation
 
-[React] and [prop-types] are required as peer dependencies. With [npm] do
+[React] is required as a peer dependency. With [npm] do
 
 ```bash
-npm install react prop-types
+npm install react
 npm install react-clipboard-icon
 ```
 
 ## Usage
 
 Import *react-clipboard-icon* in your React component.
-Props `style` and `size` are optional.
+All props are optional:
+
+* `onClick` {Function} : see [this CodePen](https://codepen.io/fibo/pen/wWKGNK) for an example of *Clipboard.js + React*.
+* `size` {Number} defaults to `24`.
+* `style` {Object}.
 
 ```javascript
 import React from 'react'
@@ -45,23 +49,11 @@ export default MyComponent
 
 ## Development
 
-Transpile with
+Transpile with `npm run build`.
 
-```bash
-npm run build
-```
+Lint code with `npm run lint`.
 
-Lint code with
-
-```bash
-npm run lint
-```
-
-Deploy with
-
-```bash
-npm version major|minor|patch
-```
+Deploy with `npm version major|minor|patch`.
 
 ## License
 
@@ -69,6 +61,5 @@ npm version major|minor|patch
 
 [clipboard.js]: https://clipboardjs.com/ "clipboard.js"
 [npm]: https://npmjs.org "npm"
-[prop-types]: https://github.com/facebook/prop-types "prop-types"
 [React]: https://facebook.github.io/react/ "React"
-[zenorocha]: https://github.com/zenorocha "Zeno Rocha"
+[@zenorocha]: https://github.com/zenorocha "Zeno Rocha"
