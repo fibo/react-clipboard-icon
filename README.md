@@ -24,12 +24,12 @@ npm install react-clipboard-icon
 
 [![Edit](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/70L6pkmj)
 
-Import *react-clipboard-icon* in your React component.
 All props are optional:
 
 * `onClick` {Function} : see [this CodePen](https://codepen.io/fibo/pen/wWKGNK) for an example of *Clipboard.js + React*.
 * `size` {Number} defaults to `24`.
 * `style` {Object}.
+* `title` {String} text visible on mouseover.
 
 ```javascript
 import React from 'react'
